@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  background-color: #333;
+  color: #222;
+  overflow-x: hidden;
+  margin: 0;
+}
+
+.container {
+  background-color: #eeeefe;
+  transform-origin: top left;
+  transition: transform 0.5s linear;
+  width: 100vw;
+  min-height: 100vh;
+  padding: 50px;
+  transition: all 1s;
+}
+
+.circle {
+  position: absolute;
+  background-color: orange;
+  width: 20rem;
+  height: 20rem;
+  border-radius: 50%;
+  left: -170px;
+  top: -170px;
+  rotate: 30deg;
+  transition: all 1s;
+}
+
+#open {
+  position: absolute;
+  right: 10%;
+  top: 51%;
+  rotate: -30deg;
+  border: none;
+  background: none;
+  color: white;
+  font-size: 40px;
+  cursor: pointer;
+  transition: font-size 0.4s;
+}
+
+#open:hover {
+background-color: : 2.9rem;
+}
+
+#close:hover {
+  background-color: : 3.3rem;
+}
+
+i {
+  width: 2rem;
+  height: 2rem;
+}
+
+#close {
+  position: absolute;
+  bottom:10%;
+  left: 27%;
+  rotate: -30deg;
+  border: none;
+  background: none;
+  color: white;
+  font-size: 45px;
+  rotate: 75deg;
+  cursor: pointer;
+  transition: font-size 0.4s;
+
+}
+
+.forward {
+  rotate: -15deg;
+}
+
+.content img {
+  max-width: 100%;
+}
+
+.content {
+  max-width: 1000px;
+  margin: 50px auto;
+}
+
+.content h1 {
+  margin: 0;
+}
+
+.content small {
+  color: #555;
+  font-style: italic;
+}
+
+.content p {
+  color: #333;
+  line-height: 1.5;
+}
+
+nav {
+  position: fixed;
+  bottom: 40px;
+  left: 0;
+  rotate: 90deg;
+  transform-origin: top left;
+  transition: all 1s;
+}
+
+ul li,
+ul a {
+  color: orange;
+  list-style: none;
+  text-decoration: none;
+}
+
+.fa-home {
+  margin-left: 2rem;
+}
+
+.fa-user-alt {
+  margin-left: 3rem;
+}
+
+.fa-envelope {
+  margin-left: 4rem;
+}
+
+a {
+  padding: .3rem;
+  transition: background 3s, color 1s;
+  border-radius: 1rem;
+
+}
+
+a:hover{
+  background-color: orange;
+  color: white;
+}
